@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="estilos.css">
     <title>simulador de loteria</title>
 </head>
 <body>
@@ -20,13 +20,14 @@
         <input type="number" id="num5">
         <input type="number" id="num6">
     </div>
+    <div class="sorteio">
+        <button class= btnsort onclick="sorteioNum()">sortear</button>
+        <p id="numsort" >numeros sorteados</p>
+    </div>0
+    <div class="verifica">
+        <p>total de acertos foi: <span id="total"></span></p>
+    </div>
+    
+    <script src="funcoes.js" ></script>
 </body>
-<div class="sorteio">
-    <button class="btnsort">sortear</button>
-    <p id="numsort" >numeros sorteados</p>
-<div class="verifica">
-    <p>total de acertos foi: <span id="total"></span></p>
-</div>
-</div>
-
 </html>
