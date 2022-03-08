@@ -13,16 +13,16 @@
     <h3>simulador</h3>
 </header>
     <div class="numeros">
-        <input type="number" id="num1">
-        <input type="number" id="num2">
-        <input type="number" id="num3">
-        <input type="number" id="num4">
-        <input type="number" id="num5">
-        <input type="number" id="num6">
+        <input type="number" id="num1"onchange="getnum(value, 1)">
+        <input type="number" id="num2"onchange="getnum(value, 2)">
+        <input type="number" id="num3"onchange="getnum(value, 3)">
+        <input type="number" id="num4"onchange="getnum(value, 4)">
+        <input type="number" id="num5"onchange="getnum(value, 5)">
+        <input type="number" id="num6"onchange="getnum(value, 6)">
     </div>
     <div class="sorteio">
         <button class= btnsort onclick="sorteioNum()">sortear</button>
-        <p id="numsort" >numeros sorteados</p>
+        <p id="numSort" >numeros sorteados</p>
     </div>0
     <div class="verifica">
         <p>total de acertos foi: <span id="total"></span></p>
@@ -31,3 +31,4 @@
     <script src="funcoes.js" ></script>
 </body>
 </html>
+
